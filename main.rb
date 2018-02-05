@@ -29,5 +29,5 @@ state_direction = state_array[2]
 
 rover1 = Rover.new(state_x, state_y, state_direction)
 
-rover1.read_instructions("MLMRMLRMLRRRRMRMMMM")
+rover1.read_instructions("MMRMMRMRRM")
 puts rover1.state
